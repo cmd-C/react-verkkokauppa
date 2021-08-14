@@ -37,6 +37,9 @@ function Lista(props) {
 
         )
       })}
+      <Link to="/pepsi">
+        <Tuotenappi nimi="pepsi" kuva="pepsi.jpg"></Tuotenappi>
+      </Link>
     </div>
 
   )
@@ -79,6 +82,9 @@ function App() {
               </Route>)
           }
           )}
+           <Route path="/pepsi">
+            <img src="gameover.jpg" width="600"/>
+          </Route>
         </Switch>
       </Router>
     </div>
